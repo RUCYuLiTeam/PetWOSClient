@@ -1,11 +1,9 @@
 petwosclient
 ============
-### What's this?
-a DATA Pet Client For WEB OF SCIENCE
-The pet, WOS Client, is a part of restopicer
-using the webservice of WOS 
+## What's this?
+a Client For WEB OF SCIENCE WebService
+The pet, WOS Client, is a part of restopicer project
+## Maven using
 
-### Maven using
-
-### pet Structure
+## pet Structure
 
