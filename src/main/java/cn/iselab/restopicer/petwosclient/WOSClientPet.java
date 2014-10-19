@@ -314,6 +314,7 @@ public class WOSClientPet {
 			System.out.println("config_search_queryParameters return false!");
 			return this;
 		}
+		//search
 		searchMetaInfo = WokSearch_Client.search(_search_queryParameters, generate_retrieveParameters(1,0));
 		System.out.println(searchMetaInfo.getQueryId());
 		System.out.println(searchMetaInfo.getRecordsFound());
@@ -329,6 +330,7 @@ public class WOSClientPet {
 			System.out.println(record_result.getRecords());
 		}
 		//reference
+		
 		return this;
 	}
 }

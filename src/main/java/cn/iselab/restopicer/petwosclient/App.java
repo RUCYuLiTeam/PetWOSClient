@@ -14,7 +14,7 @@ public class App
     	   .setUserQuery("SO=Synthetic Metals")
     	   .addEdition("WOS", "SCI")
     	   .setTimeSpan("2013-01-01", "2014-01-01")
-    	   .setMaxcountofeach(10)
+    	   .setMaxcountofeach(1)
     	   .task_process()
     	   .remove_session_identifier();
     }

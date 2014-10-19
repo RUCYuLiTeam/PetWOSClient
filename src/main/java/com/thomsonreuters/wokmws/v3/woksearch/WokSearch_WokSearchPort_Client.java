@@ -216,7 +216,6 @@ public final class WokSearch_WokSearchPort_Client {
         try {
             _retrieve__return = port.retrieve(_retrieve_queryId, _retrieve_retrieveParameters);
             System.out.println("retrieve.result=" + _retrieve__return);
-
         } catch (InternalServerException_Exception e) { 
             System.out.println("Expected exception: InternalServerException has occurred.");
             System.out.println(e.toString());
